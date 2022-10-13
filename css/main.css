@@ -1,0 +1,206 @@
+
+/* General */
+* {
+   box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #6276f8;
+}
+
+/* Main */
+.main {
+    margin-top: 0px;
+    width: 100vw;
+    margin: 0.5rem auto;
+}
+
+
+.encabezado{
+    margin: 0rem;
+    padding: 0rem;
+    width: 1rem;
+    height: 1rem;
+} 
+.title {
+   border-radius: 15px;
+    text-align: center;
+    font-size: 4rem;
+    background-color: #1f1a38;
+    font-weight:bold; 
+    text-shadow:1px 1px 8px #1426c6, -1px -1px 8px #f0210a, 1px -1px 15px #f74434, -1px 1px 8px #70e709;
+}
+
+
+/* Custom */
+.custom {
+    margin-bottom: 0.5rem;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.custom__select {
+    width: 30%;
+    color: #1f1a38;
+    font-weight: bold;
+    padding: .5rem 1rem;
+    border-radius: 15px;
+    background-color:  #dee2f6;
+
+}
+
+.custom__textarea {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 1.5rem;
+    color: #1f1a38;
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 90%;
+    padding: 1rem;
+    margin-top: .5rem;
+    border-radius: 15px;
+    background-color:  #dee2f6;
+   
+}
+
+.custom__submit {
+    margin: 0 auto;
+    width: 75%;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #1f1a38;
+    font-weight: bold;
+    border-radius: 15rem;
+    border: none;
+    cursor: pointer;
+
+    display:flex;
+    justify-content: center;
+   /* align-items: center;*/
+   text-shadow:1px 1px 8px #090e6e;
+   background-color: #bcc4f8;
+}
+
+.custom__submit:hover{
+    background-color:  #2945fa;
+    text-shadow:1px 1px 8px #091f09, 1px 1px 8px #091f09 ;
+    color: white;
+}
+
+
+
+.rapida{
+    width: 100%;
+    height: 3rem;
+    margin-top:2rem;
+    
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    
+    
+}
+
+.rapi{
+    width: 50%;
+    background-color: rgb(168, 51, 38);
+    color:#c5f0c6;
+    border-radius: 10rem;
+    text-align: center;
+}
+/* Quotes */
+.quotes {
+    padding-right: 1rem;
+    padding-left: 1rem;
+    column-count: 1;
+    column-gap: 1rem;
+}
+
+
+
+@media screen and (max-width: 480px) {
+   
+    .title{
+        font-size: 2rem;
+    }
+}
+
+@media screen and (min-width: 480px) {
+   
+    .quotes {
+        column-count: 2;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .quotes {
+        column-count: 3;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .quotes {
+        column-count: 4;
+    }
+}
+
+.quote {
+    width: 100%;
+    display: inline-block;
+    margin: 1rem 0;
+    padding: 1rem;
+    box-shadow: 2px 2px 3px gray;
+    border-radius: 1rem;
+    background-color: rgb(218, 195, 193);
+}
+
+.quote:hover{
+    background-color: rgb(36, 7, 131);
+    color: white;
+}
+
+.quote__text {
+    font-weight: normal;
+    font-style: italic;
+    cursor: pointer;
+}
+
+.footer{
+    text-align: center;
+    width: 100%;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+    color: #cbc8dc;
+    background-color: #1f1a38;
+}
+
+h5{
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.selec-voz{
+    margin: 0;
+    font-size: 1.2rem;
+    background-color: rgba(255, 255, 255, 0.479);
+    border-radius: 10px;
+    
+
+}
+h4{
+    margin: 0;
+    font-size: 1.5rem;
+}
